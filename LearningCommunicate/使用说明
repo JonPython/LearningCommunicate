@@ -1,0 +1,18 @@
+#因时间紧迫，代码未能持续完善
+１．环境：
+	linux
+	python3
+	mysql
+
+２．工具：
+	mysql数据库
+	tkinter图形界面工具包
+
+３．使用：
+
+	所以使用前，先在数据库中
+	1`创建 库 Ifquestion
+	2`终端python3启动服务器文件server.py
+	3`启动client.py链接服务器并进入客户端界面
+
+

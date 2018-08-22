@@ -1,0 +1,38 @@
+文件名:
+  服务端:
+    server.py
+    question.py
+  客户端:
+    client.py
+    gui.py
+
+主要功能函数名及通信参数:
+格式为字符串
+参数字符串分隔符:#.#
+元组内参数字符串分隔符:*.*
+
+主函数:  main
+注册：  login 参数格式:login#.#name#.#mail#.#brithday#.#sex#.#passwd
+登录：  enter 参数格式:enter#.#name#.#passwd
+提问：  ask  参数格式:ask#.#title#.#question#.#name#.#type1
+回答:  reply 参数格式:reply#.#name#.#solution#.#sid
+我回答的问题：answer 参数格式answer#.#name
+我的提问：question 参数格式:question#.#name
+申请增加分类：applyfor 参数格式:applyfor#.#name#.#title#.#content
+单个问题调用:single 参数格式single#.#title
+个人信息展示: show 参数格式:show#.#title#.#name
+热门问题：hot  参数格式:hot#.#
+心情墙：love 参数格式:love#.#
+留言:messageto 参数格式:messageto#.#sid#.#mes#.#name
+获取留言:message 参数格式:message#.#name
+类型问题: type1 参数格式mtype#.#type类型
+    type类型:
+        Python
+        数据库
+        网络编程
+        WEB
+        GUI
+        模块相关
+        项目相关
+        其他
+        心情墙
